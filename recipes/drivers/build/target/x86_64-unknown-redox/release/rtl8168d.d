@@ -1,0 +1,1 @@
+/home/luis/redox/chronoOS/cookbook/recipes/drivers/build/target/x86_64-unknown-redox/release/rtl8168d: /home/luis/redox/chronoOS/cookbook/recipes/drivers/source/rtl8168d/src/device.rs /home/luis/redox/chronoOS/cookbook/recipes/drivers/source/rtl8168d/src/main.rs

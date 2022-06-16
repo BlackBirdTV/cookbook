@@ -1,0 +1,11 @@
+/home/luis/redox/chronoOS/cookbook/recipes/uutils/build/target/x86_64-unknown-redox/release/deps/generic_array-2119fcae9857fe48.rmeta: /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.8.4/src/lib.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.8.4/src/arr.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.8.4/src/iter.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.8.4/src/hex.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.8.4/src/impls.rs
+
+/home/luis/redox/chronoOS/cookbook/recipes/uutils/build/target/x86_64-unknown-redox/release/deps/libgeneric_array-2119fcae9857fe48.rlib: /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.8.4/src/lib.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.8.4/src/arr.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.8.4/src/iter.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.8.4/src/hex.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.8.4/src/impls.rs
+
+/home/luis/redox/chronoOS/cookbook/recipes/uutils/build/target/x86_64-unknown-redox/release/deps/generic_array-2119fcae9857fe48.d: /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.8.4/src/lib.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.8.4/src/arr.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.8.4/src/iter.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.8.4/src/hex.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.8.4/src/impls.rs
+
+/home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.8.4/src/lib.rs:
+/home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.8.4/src/arr.rs:
+/home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.8.4/src/iter.rs:
+/home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.8.4/src/hex.rs:
+/home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.8.4/src/impls.rs:

@@ -1,0 +1,323 @@
+liblzma_la-lz_encoder_mf.lo: \
+ /home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/liblzma/lz/lz_encoder_mf.c \
+ /home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/liblzma/lz/lz_encoder.h \
+ /home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/liblzma/common/common.h \
+ /home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/common/sysdefs.h \
+ ../../config.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/stddef.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/inttypes.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/stdint.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/wchar.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/wchar.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/time.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/sys/types.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/sys/types_internal.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/sys/select.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/sys/select.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/sys/time.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/sys/time.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/stdio.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/stdarg.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/stdio.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/inttypes.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include-fixed/limits.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include-fixed/syslimits.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/limits.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/limits.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/stdlib.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/alloca.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/stdlib.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/assert.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/assert.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/stdbool.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/string.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/strings.h \
+ /home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/common/mythread.h \
+ /home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/common/sysdefs.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/signal.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/signal.h \
+ /home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/common/tuklib_integer.h \
+ /home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/common/tuklib_common.h \
+ /home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/common/tuklib_config.h \
+ /home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/liblzma/api/lzma.h \
+ /home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/liblzma/api/lzma/version.h \
+ /home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/liblzma/api/lzma/base.h \
+ /home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/liblzma/api/lzma/vli.h \
+ /home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/liblzma/api/lzma/check.h \
+ /home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/liblzma/api/lzma/filter.h \
+ /home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/liblzma/api/lzma/bcj.h \
+ /home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/liblzma/api/lzma/delta.h \
+ /home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/liblzma/api/lzma/lzma12.h \
+ /home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/liblzma/api/lzma/container.h \
+ /home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/liblzma/api/lzma/stream_flags.h \
+ /home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/liblzma/api/lzma/block.h \
+ /home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/liblzma/api/lzma/index.h \
+ /home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/liblzma/api/lzma/index_hash.h \
+ /home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/liblzma/api/lzma/hardware.h \
+ /home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/liblzma/lz/lz_encoder_hash.h \
+ /home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/liblzma/check/check.h \
+ /home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/liblzma/common/memcmplen.h \
+ /home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/liblzma/common/common.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/immintrin.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/mmintrin.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/xmmintrin.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/mm_malloc.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/errno.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/errno.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/emmintrin.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/pmmintrin.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/tmmintrin.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/smmintrin.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/popcntintrin.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/wmmintrin.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/avxintrin.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/avx2intrin.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/avx512fintrin.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/avx512erintrin.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/avx512pfintrin.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/avx512cdintrin.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/avx512vlintrin.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/avx512bwintrin.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/avx512dqintrin.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/avx512vlbwintrin.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/avx512vldqintrin.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/avx512ifmaintrin.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/avx512ifmavlintrin.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/avx512vbmiintrin.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/avx512vbmivlintrin.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/avx5124fmapsintrin.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/avx5124vnniwintrin.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/avx512vpopcntdqintrin.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/avx512vbmi2intrin.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/avx512vbmi2vlintrin.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/avx512vnniintrin.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/avx512vnnivlintrin.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/avx512vpopcntdqvlintrin.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/avx512bitalgintrin.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/shaintrin.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/lzcntintrin.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/bmiintrin.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/bmi2intrin.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/fmaintrin.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/f16cintrin.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/rtmintrin.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/xtestintrin.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/cetintrin.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/gfniintrin.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/vaesintrin.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/vpclmulqdqintrin.h \
+ /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/movdirintrin.h
+
+/home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/liblzma/lz/lz_encoder.h:
+
+/home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/liblzma/common/common.h:
+
+/home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/common/sysdefs.h:
+
+../../config.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/stddef.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/inttypes.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/stdint.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/wchar.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/wchar.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/time.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/sys/types.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/sys/types_internal.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/sys/select.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/sys/select.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/sys/time.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/sys/time.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/stdio.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/stdarg.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/stdio.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/inttypes.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include-fixed/limits.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include-fixed/syslimits.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/limits.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/limits.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/stdlib.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/alloca.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/stdlib.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/assert.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/assert.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/stdbool.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/string.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/strings.h:
+
+/home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/common/mythread.h:
+
+/home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/common/sysdefs.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/signal.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/signal.h:
+
+/home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/common/tuklib_integer.h:
+
+/home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/common/tuklib_common.h:
+
+/home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/common/tuklib_config.h:
+
+/home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/liblzma/api/lzma.h:
+
+/home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/liblzma/api/lzma/version.h:
+
+/home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/liblzma/api/lzma/base.h:
+
+/home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/liblzma/api/lzma/vli.h:
+
+/home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/liblzma/api/lzma/check.h:
+
+/home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/liblzma/api/lzma/filter.h:
+
+/home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/liblzma/api/lzma/bcj.h:
+
+/home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/liblzma/api/lzma/delta.h:
+
+/home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/liblzma/api/lzma/lzma12.h:
+
+/home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/liblzma/api/lzma/container.h:
+
+/home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/liblzma/api/lzma/stream_flags.h:
+
+/home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/liblzma/api/lzma/block.h:
+
+/home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/liblzma/api/lzma/index.h:
+
+/home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/liblzma/api/lzma/index_hash.h:
+
+/home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/liblzma/api/lzma/hardware.h:
+
+/home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/liblzma/lz/lz_encoder_hash.h:
+
+/home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/liblzma/check/check.h:
+
+/home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/liblzma/common/memcmplen.h:
+
+/home/luis/redox/chronoOS/cookbook/recipes/xz/source/src/liblzma/common/common.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/immintrin.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/mmintrin.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/xmmintrin.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/mm_malloc.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/errno.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/errno.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/emmintrin.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/pmmintrin.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/tmmintrin.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/smmintrin.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/popcntintrin.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/wmmintrin.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/avxintrin.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/avx2intrin.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/avx512fintrin.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/avx512erintrin.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/avx512pfintrin.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/avx512cdintrin.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/avx512vlintrin.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/avx512bwintrin.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/avx512dqintrin.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/avx512vlbwintrin.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/avx512vldqintrin.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/avx512ifmaintrin.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/avx512ifmavlintrin.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/avx512vbmiintrin.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/avx512vbmivlintrin.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/avx5124fmapsintrin.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/avx5124vnniwintrin.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/avx512vpopcntdqintrin.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/avx512vbmi2intrin.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/avx512vbmi2vlintrin.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/avx512vnniintrin.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/avx512vnnivlintrin.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/avx512vpopcntdqvlintrin.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/avx512bitalgintrin.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/shaintrin.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/lzcntintrin.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/bmiintrin.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/bmi2intrin.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/fmaintrin.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/f16cintrin.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/rtmintrin.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/xtestintrin.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/cetintrin.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/gfniintrin.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/vaesintrin.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/vpclmulqdqintrin.h:
+
+/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/movdirintrin.h:

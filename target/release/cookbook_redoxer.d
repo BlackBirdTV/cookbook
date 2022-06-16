@@ -1,0 +1,1 @@
+/home/luis/redox/chronoOS/cookbook/target/release/cookbook_redoxer: /home/luis/redox/chronoOS/cookbook/src/bin/cookbook_redoxer.rs /home/luis/redox/chronoOS/cookbook/src/blake3.rs /home/luis/redox/chronoOS/cookbook/src/lib.rs /home/luis/redox/chronoOS/cookbook/src/progress_bar.rs /home/luis/redox/chronoOS/cookbook/src/recipe.rs /home/luis/redox/chronoOS/cookbook/src/sha256.rs

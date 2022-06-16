@@ -1,0 +1,11 @@
+prefix=/home/luis/redox/redox/cookbook/recipes/netsurf/build/inst-framebuffer
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libsvgtiny
+Description: SVG Tiny 1.1 rendering library
+Version: 0.1.6
+Requires: libdom
+Libs: -L${libdir} -lsvgtiny
+Cflags: -I${includedir}

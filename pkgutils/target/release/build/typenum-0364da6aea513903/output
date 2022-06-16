@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/home/luis/redox/redox/cookbook/pkgutils/target/release/build/typenum-0364da6aea513903/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/home/luis/redox/redox/cookbook/pkgutils/target/release/build/typenum-0364da6aea513903/out/op.rs

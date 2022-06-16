@@ -1,0 +1,1 @@
+/home/luis/redox/chronoOS/cookbook/recipes/audiod/build/target/x86_64-unknown-redox/release/audiod: /home/luis/redox/chronoOS/cookbook/recipes/audiod/source/src/main.rs /home/luis/redox/chronoOS/cookbook/recipes/audiod/source/src/scheme.rs

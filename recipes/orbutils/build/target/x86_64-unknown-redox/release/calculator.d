@@ -1,0 +1,1 @@
+/home/luis/redox/chronoOS/cookbook/recipes/orbutils/build/target/x86_64-unknown-redox/release/calculator: /home/luis/redox/chronoOS/cookbook/recipes/orbutils/source/src/calculator/main.rs /home/luis/redox/chronoOS/cookbook/recipes/orbutils/source/src/calculator/theme.css

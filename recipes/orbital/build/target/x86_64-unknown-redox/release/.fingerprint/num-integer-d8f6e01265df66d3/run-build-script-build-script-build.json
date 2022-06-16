@@ -1,0 +1,1 @@
+{"rustc":15109055720559024827,"features":"","target":0,"profile":0,"path":0,"deps":[[11240074021302633345,"build_script_build",false,1830483419462203446]],"local":[{"RerunIfChanged":{"output":"x86_64-unknown-redox/release/build/num-integer-d8f6e01265df66d3/output","paths":["build.rs"]}}],"rustflags":[],"metadata":0,"config":0,"compile_kind":0}

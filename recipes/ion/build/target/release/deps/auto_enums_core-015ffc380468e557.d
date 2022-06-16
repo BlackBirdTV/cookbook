@@ -1,0 +1,10 @@
+/home/luis/redox/chronoOS/cookbook/recipes/ion/build/target/release/deps/libauto_enums_core-015ffc380468e557.so: /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_enums_core-0.7.12/src/lib.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_enums_core-0.7.12/src/utils.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_enums_core-0.7.12/src/auto_enum/mod.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_enums_core-0.7.12/src/auto_enum/context.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_enums_core-0.7.12/src/auto_enum/expr.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_enums_core-0.7.12/src/auto_enum/visitor.rs
+
+/home/luis/redox/chronoOS/cookbook/recipes/ion/build/target/release/deps/auto_enums_core-015ffc380468e557.d: /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_enums_core-0.7.12/src/lib.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_enums_core-0.7.12/src/utils.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_enums_core-0.7.12/src/auto_enum/mod.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_enums_core-0.7.12/src/auto_enum/context.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_enums_core-0.7.12/src/auto_enum/expr.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_enums_core-0.7.12/src/auto_enum/visitor.rs
+
+/home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_enums_core-0.7.12/src/lib.rs:
+/home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_enums_core-0.7.12/src/utils.rs:
+/home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_enums_core-0.7.12/src/auto_enum/mod.rs:
+/home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_enums_core-0.7.12/src/auto_enum/context.rs:
+/home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_enums_core-0.7.12/src/auto_enum/expr.rs:
+/home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/auto_enums_core-0.7.12/src/auto_enum/visitor.rs:

@@ -1,0 +1,4 @@
+name = "terminfo"
+version = "r2.dc5712b"
+target = "x86_64-unknown-redox"
+depends = []

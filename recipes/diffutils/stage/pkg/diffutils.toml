@@ -1,0 +1,4 @@
+name = "diffutils"
+version = "3.6"
+target = "x86_64-unknown-redox"
+depends = []

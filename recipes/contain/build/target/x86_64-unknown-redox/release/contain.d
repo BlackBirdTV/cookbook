@@ -1,0 +1,1 @@
+/home/luis/redox/chronoOS/cookbook/recipes/contain/build/target/x86_64-unknown-redox/release/contain: /home/luis/redox/chronoOS/cookbook/recipes/contain/source/src/chroot.rs /home/luis/redox/chronoOS/cookbook/recipes/contain/source/src/main.rs

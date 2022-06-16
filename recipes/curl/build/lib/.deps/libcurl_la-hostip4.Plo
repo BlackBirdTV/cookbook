@@ -1,0 +1,374 @@
+libcurl_la-hostip4.lo: hostip4.c curl_setup.h curl_config.h \
+ ../include/curl/curl.h ../include/curl/curlver.h \
+ ../include/curl/system.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/sys/types.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/sys/types_internal.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/stddef.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/sys/select.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/sys/select.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/sys/time.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/sys/time.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/sys/socket.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/stdint.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/sys/socket.h \
+ ../include/curl/curlbuild.h ../include/curl/curlrules.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/stdio.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/stdarg.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/stdio.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include-fixed/limits.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include-fixed/syslimits.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/limits.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/limits.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/time.h \
+ ../include/curl/easy.h ../include/curl/multi.h ../include/curl/curl.h \
+ ../include/curl/typecheck-gcc.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/assert.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/assert.h \
+ curl_setup_once.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/stdlib.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/alloca.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/stdlib.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/string.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/strings.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/ctype.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/ctype.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/errno.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/errno.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/sys/stat.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/sys/stat.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/stdbool.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/unistd.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/fcntl.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/unistd.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/netinet/in.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/netinet/in.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/netdb.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/netdb.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/arpa/inet.h \
+ urldata.h cookie.h formdata.h \
+ /home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/ssl.h \
+ /home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/e_os2.h \
+ /home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/opensslconf.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/inttypes.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/wchar.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/wchar.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/inttypes.h \
+ /home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/comp.h \
+ /home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/crypto.h \
+ /home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/stack.h \
+ /home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/safestack.h \
+ /home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/opensslv.h \
+ /home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/ossl_typ.h \
+ /home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/symhacks.h \
+ /home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/bio.h \
+ /home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/x509.h \
+ /home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/buffer.h \
+ /home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/evp.h \
+ /home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/objects.h \
+ /home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/obj_mac.h \
+ /home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/asn1.h \
+ /home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/bn.h \
+ /home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/ec.h \
+ /home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/rsa.h \
+ /home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/dsa.h \
+ /home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/dh.h \
+ /home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/sha.h \
+ /home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/x509_vfy.h \
+ /home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/lhash.h \
+ /home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/pkcs7.h \
+ /home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/pem.h \
+ /home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/pem2.h \
+ /home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/hmac.h \
+ /home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/async.h \
+ /home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/ct.h \
+ /home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/ssl2.h \
+ /home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/ssl3.h \
+ /home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/tls1.h \
+ /home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/dtls1.h \
+ /home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/srtp.h \
+ /home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/engine.h \
+ /home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/rand.h \
+ /home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/ui.h \
+ /home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/err.h \
+ timeval.h \
+ /home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/zlib.h \
+ /home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/zconf.h \
+ http_chunks.h hostip.h hash.h llist.h curl_addrinfo.h asyn.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/setjmp.h \
+ splay.h imap.h pingpong.h curl_sasl.h pop3.h smtp.h ftp.h file.h ssh.h \
+ http.h \
+ /home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/nghttp2/nghttp2.h \
+ /home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/nghttp2/nghttp2ver.h \
+ rtsp.h smb.h wildcard.h multihandle.h conncache.h sendf.h share.h \
+ strerror.h url.h inet_pton.h curl_printf.h ../include/curl/mprintf.h \
+ curl_memory.h memdebug.h
+
+curl_setup.h:
+
+curl_config.h:
+
+../include/curl/curl.h:
+
+../include/curl/curlver.h:
+
+../include/curl/system.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/sys/types.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/sys/types_internal.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/stddef.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/sys/select.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/sys/select.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/sys/time.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/sys/time.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/sys/socket.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/stdint.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/sys/socket.h:
+
+../include/curl/curlbuild.h:
+
+../include/curl/curlrules.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/stdio.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/stdarg.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/stdio.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include-fixed/limits.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include-fixed/syslimits.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/limits.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/limits.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/time.h:
+
+../include/curl/easy.h:
+
+../include/curl/multi.h:
+
+../include/curl/curl.h:
+
+../include/curl/typecheck-gcc.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/assert.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/assert.h:
+
+curl_setup_once.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/stdlib.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/alloca.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/stdlib.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/string.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/strings.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/ctype.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/ctype.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/errno.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/errno.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/sys/stat.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/sys/stat.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/stdbool.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/unistd.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/fcntl.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/unistd.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/netinet/in.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/netinet/in.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/netdb.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/netdb.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/arpa/inet.h:
+
+urldata.h:
+
+cookie.h:
+
+formdata.h:
+
+/home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/ssl.h:
+
+/home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/e_os2.h:
+
+/home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/opensslconf.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/inttypes.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/wchar.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/wchar.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/inttypes.h:
+
+/home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/comp.h:
+
+/home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/crypto.h:
+
+/home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/stack.h:
+
+/home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/safestack.h:
+
+/home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/opensslv.h:
+
+/home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/ossl_typ.h:
+
+/home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/symhacks.h:
+
+/home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/bio.h:
+
+/home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/x509.h:
+
+/home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/buffer.h:
+
+/home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/evp.h:
+
+/home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/objects.h:
+
+/home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/obj_mac.h:
+
+/home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/asn1.h:
+
+/home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/bn.h:
+
+/home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/ec.h:
+
+/home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/rsa.h:
+
+/home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/dsa.h:
+
+/home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/dh.h:
+
+/home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/sha.h:
+
+/home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/x509_vfy.h:
+
+/home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/lhash.h:
+
+/home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/pkcs7.h:
+
+/home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/pem.h:
+
+/home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/pem2.h:
+
+/home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/hmac.h:
+
+/home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/async.h:
+
+/home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/ct.h:
+
+/home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/ssl2.h:
+
+/home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/ssl3.h:
+
+/home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/tls1.h:
+
+/home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/dtls1.h:
+
+/home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/srtp.h:
+
+/home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/engine.h:
+
+/home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/rand.h:
+
+/home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/ui.h:
+
+/home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/openssl/err.h:
+
+timeval.h:
+
+/home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/zlib.h:
+
+/home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/zconf.h:
+
+http_chunks.h:
+
+hostip.h:
+
+hash.h:
+
+llist.h:
+
+curl_addrinfo.h:
+
+asyn.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/setjmp.h:
+
+splay.h:
+
+imap.h:
+
+pingpong.h:
+
+curl_sasl.h:
+
+pop3.h:
+
+smtp.h:
+
+ftp.h:
+
+file.h:
+
+ssh.h:
+
+http.h:
+
+/home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/nghttp2/nghttp2.h:
+
+/home/luis/redox/redox/cookbook/recipes/curl/sysroot/include/nghttp2/nghttp2ver.h:
+
+rtsp.h:
+
+smb.h:
+
+wildcard.h:
+
+multihandle.h:
+
+conncache.h:
+
+sendf.h:
+
+share.h:
+
+strerror.h:
+
+url.h:
+
+inet_pton.h:
+
+curl_printf.h:
+
+../include/curl/mprintf.h:
+
+curl_memory.h:
+
+memdebug.h:

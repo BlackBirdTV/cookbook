@@ -1,0 +1,4 @@
+name = "openssl"
+version = ""
+target = "x86_64-unknown-redox"
+depends = []

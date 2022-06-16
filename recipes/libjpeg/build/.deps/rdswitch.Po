@@ -1,0 +1,77 @@
+rdswitch.o: \
+ /home/luis/redox/redox/cookbook/recipes/libjpeg/source/rdswitch.c \
+ /home/luis/redox/redox/cookbook/recipes/libjpeg/source/cdjpeg.h \
+ /home/luis/redox/redox/cookbook/recipes/libjpeg/source/jinclude.h \
+ jconfig.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/stddef.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/stdlib.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/alloca.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/stdlib.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/stdio.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/stdarg.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/stdint.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/sys/types.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/sys/types_internal.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/sys/select.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/sys/select.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/sys/time.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/sys/time.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/stdio.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/string.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/strings.h \
+ /home/luis/redox/redox/cookbook/recipes/libjpeg/source/jpeglib.h \
+ /home/luis/redox/redox/cookbook/recipes/libjpeg/source/jmorecfg.h \
+ /home/luis/redox/redox/cookbook/recipes/libjpeg/source/jerror.h \
+ /home/luis/redox/redox/cookbook/recipes/libjpeg/source/cderror.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/ctype.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/ctype.h
+
+/home/luis/redox/redox/cookbook/recipes/libjpeg/source/cdjpeg.h:
+
+/home/luis/redox/redox/cookbook/recipes/libjpeg/source/jinclude.h:
+
+jconfig.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/stddef.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/stdlib.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/alloca.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/stdlib.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/stdio.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/stdarg.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/stdint.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/sys/types.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/sys/types_internal.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/sys/select.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/sys/select.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/sys/time.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/sys/time.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/stdio.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/string.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/strings.h:
+
+/home/luis/redox/redox/cookbook/recipes/libjpeg/source/jpeglib.h:
+
+/home/luis/redox/redox/cookbook/recipes/libjpeg/source/jmorecfg.h:
+
+/home/luis/redox/redox/cookbook/recipes/libjpeg/source/jerror.h:
+
+/home/luis/redox/redox/cookbook/recipes/libjpeg/source/cderror.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/ctype.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/ctype.h:

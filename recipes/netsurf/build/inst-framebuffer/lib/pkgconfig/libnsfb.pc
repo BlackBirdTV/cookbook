@@ -1,0 +1,11 @@
+prefix=/home/luis/redox/redox/cookbook/recipes/netsurf/build/inst-framebuffer
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libnsfb
+Description: Provides framebuffer access for netsurf.
+Version: 0.1.6
+Requires: sdl
+Libs: -L${libdir} -lnsfb
+Cflags: -I${includedir}

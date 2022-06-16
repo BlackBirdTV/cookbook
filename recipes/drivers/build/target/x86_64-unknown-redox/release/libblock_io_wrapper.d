@@ -1,0 +1,1 @@
+/home/luis/redox/chronoOS/cookbook/recipes/drivers/build/target/x86_64-unknown-redox/release/libblock_io_wrapper.rlib: /home/luis/redox/chronoOS/cookbook/recipes/drivers/source/block-io-wrapper/src/lib.rs

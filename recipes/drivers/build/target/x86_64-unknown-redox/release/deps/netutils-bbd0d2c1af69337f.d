@@ -1,0 +1,13 @@
+/home/luis/redox/chronoOS/cookbook/recipes/drivers/build/target/x86_64-unknown-redox/release/deps/netutils-bbd0d2c1af69337f.rmeta: /home/luis/.cargo/git/checkouts/netutils-11461d3482072a69/c5d6d20/src/lib/lib.rs /home/luis/.cargo/git/checkouts/netutils-11461d3482072a69/c5d6d20/src/lib/ip/mod.rs /home/luis/.cargo/git/checkouts/netutils-11461d3482072a69/c5d6d20/src/lib/ip/addr.rs /home/luis/.cargo/git/checkouts/netutils-11461d3482072a69/c5d6d20/src/lib/mac/mod.rs /home/luis/.cargo/git/checkouts/netutils-11461d3482072a69/c5d6d20/src/lib/mac/addr.rs /home/luis/.cargo/git/checkouts/netutils-11461d3482072a69/c5d6d20/src/lib/tcp.rs /home/luis/.cargo/git/checkouts/netutils-11461d3482072a69/c5d6d20/src/lib/udp.rs
+
+/home/luis/redox/chronoOS/cookbook/recipes/drivers/build/target/x86_64-unknown-redox/release/deps/libnetutils-bbd0d2c1af69337f.rlib: /home/luis/.cargo/git/checkouts/netutils-11461d3482072a69/c5d6d20/src/lib/lib.rs /home/luis/.cargo/git/checkouts/netutils-11461d3482072a69/c5d6d20/src/lib/ip/mod.rs /home/luis/.cargo/git/checkouts/netutils-11461d3482072a69/c5d6d20/src/lib/ip/addr.rs /home/luis/.cargo/git/checkouts/netutils-11461d3482072a69/c5d6d20/src/lib/mac/mod.rs /home/luis/.cargo/git/checkouts/netutils-11461d3482072a69/c5d6d20/src/lib/mac/addr.rs /home/luis/.cargo/git/checkouts/netutils-11461d3482072a69/c5d6d20/src/lib/tcp.rs /home/luis/.cargo/git/checkouts/netutils-11461d3482072a69/c5d6d20/src/lib/udp.rs
+
+/home/luis/redox/chronoOS/cookbook/recipes/drivers/build/target/x86_64-unknown-redox/release/deps/netutils-bbd0d2c1af69337f.d: /home/luis/.cargo/git/checkouts/netutils-11461d3482072a69/c5d6d20/src/lib/lib.rs /home/luis/.cargo/git/checkouts/netutils-11461d3482072a69/c5d6d20/src/lib/ip/mod.rs /home/luis/.cargo/git/checkouts/netutils-11461d3482072a69/c5d6d20/src/lib/ip/addr.rs /home/luis/.cargo/git/checkouts/netutils-11461d3482072a69/c5d6d20/src/lib/mac/mod.rs /home/luis/.cargo/git/checkouts/netutils-11461d3482072a69/c5d6d20/src/lib/mac/addr.rs /home/luis/.cargo/git/checkouts/netutils-11461d3482072a69/c5d6d20/src/lib/tcp.rs /home/luis/.cargo/git/checkouts/netutils-11461d3482072a69/c5d6d20/src/lib/udp.rs
+
+/home/luis/.cargo/git/checkouts/netutils-11461d3482072a69/c5d6d20/src/lib/lib.rs:
+/home/luis/.cargo/git/checkouts/netutils-11461d3482072a69/c5d6d20/src/lib/ip/mod.rs:
+/home/luis/.cargo/git/checkouts/netutils-11461d3482072a69/c5d6d20/src/lib/ip/addr.rs:
+/home/luis/.cargo/git/checkouts/netutils-11461d3482072a69/c5d6d20/src/lib/mac/mod.rs:
+/home/luis/.cargo/git/checkouts/netutils-11461d3482072a69/c5d6d20/src/lib/mac/addr.rs:
+/home/luis/.cargo/git/checkouts/netutils-11461d3482072a69/c5d6d20/src/lib/tcp.rs:
+/home/luis/.cargo/git/checkouts/netutils-11461d3482072a69/c5d6d20/src/lib/udp.rs:

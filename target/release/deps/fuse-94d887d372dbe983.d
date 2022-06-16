@@ -1,0 +1,14 @@
+/home/luis/redox/redox/cookbook/target/release/deps/fuse-94d887d372dbe983.rmeta: /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/fuse-0.3.1/src/lib.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/fuse-0.3.1/src/argument.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/fuse-0.3.1/src/channel.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/fuse-0.3.1/src/kernel.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/fuse-0.3.1/src/libfuse.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/fuse-0.3.1/src/reply.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/fuse-0.3.1/src/request.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/fuse-0.3.1/src/session.rs
+
+/home/luis/redox/redox/cookbook/target/release/deps/libfuse-94d887d372dbe983.rlib: /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/fuse-0.3.1/src/lib.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/fuse-0.3.1/src/argument.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/fuse-0.3.1/src/channel.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/fuse-0.3.1/src/kernel.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/fuse-0.3.1/src/libfuse.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/fuse-0.3.1/src/reply.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/fuse-0.3.1/src/request.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/fuse-0.3.1/src/session.rs
+
+/home/luis/redox/redox/cookbook/target/release/deps/fuse-94d887d372dbe983.d: /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/fuse-0.3.1/src/lib.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/fuse-0.3.1/src/argument.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/fuse-0.3.1/src/channel.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/fuse-0.3.1/src/kernel.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/fuse-0.3.1/src/libfuse.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/fuse-0.3.1/src/reply.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/fuse-0.3.1/src/request.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/fuse-0.3.1/src/session.rs
+
+/home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/fuse-0.3.1/src/lib.rs:
+/home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/fuse-0.3.1/src/argument.rs:
+/home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/fuse-0.3.1/src/channel.rs:
+/home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/fuse-0.3.1/src/kernel.rs:
+/home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/fuse-0.3.1/src/libfuse.rs:
+/home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/fuse-0.3.1/src/reply.rs:
+/home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/fuse-0.3.1/src/request.rs:
+/home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/fuse-0.3.1/src/session.rs:

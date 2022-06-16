@@ -1,0 +1,169 @@
+variable.o: variable.c makeint.h config.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/alloca.h \
+ gnumake.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/sys/types.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/sys/types_internal.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/stddef.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/sys/select.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/sys/select.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/sys/time.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/sys/time.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/sys/stat.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/time.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/stdint.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/sys/stat.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/signal.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/signal.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/stdio.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/stdarg.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/stdio.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/ctype.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/ctype.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/sys/timeb.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/errno.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/errno.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/unistd.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/fcntl.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/unistd.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include-fixed/limits.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include-fixed/syslimits.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/limits.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/limits.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/sys/param.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/sys/resource.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/sys/resource.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/machine/endian.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/stdlib.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/stdlib.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/string.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/strings.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/inttypes.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/wchar.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/wchar.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/inttypes.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/locale.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/locale.h \
+ gettext.h glob/glob.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/assert.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/assert.h \
+ filedef.h hash.h dep.h job.h output.h \
+ /home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/fcntl.h \
+ commands.h variable.h rule.h
+
+makeint.h:
+
+config.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/alloca.h:
+
+gnumake.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/sys/types.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/sys/types_internal.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/stddef.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/sys/select.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/sys/select.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/sys/time.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/sys/time.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/sys/stat.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/time.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/stdint.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/sys/stat.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/signal.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/signal.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/stdio.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include/stdarg.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/stdio.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/ctype.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/ctype.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/sys/timeb.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/errno.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/errno.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/unistd.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/fcntl.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/unistd.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include-fixed/limits.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/lib/gcc/x86_64-unknown-redox/8.2.0/include-fixed/syslimits.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/limits.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/limits.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/sys/param.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/sys/resource.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/sys/resource.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/machine/endian.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/stdlib.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/stdlib.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/string.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/strings.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/inttypes.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/wchar.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/wchar.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/inttypes.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/locale.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/locale.h:
+
+gettext.h:
+
+glob/glob.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/assert.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/bits/assert.h:
+
+filedef.h:
+
+hash.h:
+
+dep.h:
+
+job.h:
+
+output.h:
+
+/home/luis/redox/redox/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/include/fcntl.h:
+
+commands.h:
+
+variable.h:
+
+rule.h:

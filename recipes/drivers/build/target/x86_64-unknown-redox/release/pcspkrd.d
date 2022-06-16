@@ -1,0 +1,1 @@
+/home/luis/redox/chronoOS/cookbook/recipes/drivers/build/target/x86_64-unknown-redox/release/pcspkrd: /home/luis/redox/chronoOS/cookbook/recipes/drivers/source/pcspkrd/src/main.rs /home/luis/redox/chronoOS/cookbook/recipes/drivers/source/pcspkrd/src/pcspkr.rs /home/luis/redox/chronoOS/cookbook/recipes/drivers/source/pcspkrd/src/scheme.rs

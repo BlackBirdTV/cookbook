@@ -1,0 +1,1 @@
+/home/luis/redox/chronoOS/cookbook/recipes/drivers/build/target/x86_64-unknown-redox/release/ixgbed: /home/luis/redox/chronoOS/cookbook/recipes/drivers/source/ixgbed/src/device.rs /home/luis/redox/chronoOS/cookbook/recipes/drivers/source/ixgbed/src/ixgbe.rs /home/luis/redox/chronoOS/cookbook/recipes/drivers/source/ixgbed/src/main.rs

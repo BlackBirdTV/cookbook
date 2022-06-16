@@ -1,0 +1,10 @@
+prefix=/home/luis/redox/redox/cookbook/recipes/netsurf/build/inst-framebuffer
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libnspsl
+Description: NetSurf Public Suffix List
+Version: 0.1.2
+Libs: -L${libdir} -lnspsl
+Cflags: -I${includedir}

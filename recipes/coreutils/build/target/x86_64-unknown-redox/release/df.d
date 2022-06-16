@@ -1,0 +1,1 @@
+/home/luis/redox/chronoOS/cookbook/recipes/coreutils/build/target/x86_64-unknown-redox/release/df: /home/luis/redox/chronoOS/cookbook/recipes/coreutils/source/src/bin/df.rs /home/luis/redox/chronoOS/cookbook/recipes/coreutils/source/src/lib.rs

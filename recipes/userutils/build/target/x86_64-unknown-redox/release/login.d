@@ -1,0 +1,1 @@
+/home/luis/redox/chronoOS/cookbook/recipes/userutils/build/target/x86_64-unknown-redox/release/login: /home/luis/redox/chronoOS/cookbook/recipes/userutils/source/src/bin/login.rs /home/luis/redox/chronoOS/cookbook/recipes/userutils/source/src/lib.rs

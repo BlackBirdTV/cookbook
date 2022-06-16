@@ -1,0 +1,12 @@
+#!/bin/sh -e
+
+libdir="/home/luis/redox/redox/cookbook/recipes/nghttp2/build/lib"
+if [ -d "$libdir/.libs" ]; then
+    libdir="$libdir/.libs"
+fi
+
+export CGO_CFLAGS="-I/home/luis/redox/redox/cookbook/recipes/nghttp2/source/lib/includes -I/home/luis/redox/redox/cookbook/recipes/nghttp2/build/lib/includes"
+export CGO_LDFLAGS="-L$libdir"
+export LD_LIBRARY_PATH="$libdir"
+export GODEBUG=cgocheck=0
+"$@"

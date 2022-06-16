@@ -1,0 +1,10 @@
+prefix=/home/luis/redox/redox/cookbook/recipes/netsurf/build/inst-framebuffer
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libnsgif
+Description: Provides gif loading and conversion
+Version: 0.2.0
+Libs: -L${libdir} -lnsgif
+Cflags: -I${includedir}

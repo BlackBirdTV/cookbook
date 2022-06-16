@@ -1,0 +1,10 @@
+prefix=/home/luis/redox/redox/cookbook/recipes/netsurf/build/inst-framebuffer
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libnsutils
+Description: NetSurf utilities
+Version: 0.0.3
+Libs: -L${libdir} -lnsutils
+Cflags: -I${includedir}

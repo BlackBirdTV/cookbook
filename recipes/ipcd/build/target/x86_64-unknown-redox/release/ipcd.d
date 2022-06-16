@@ -1,0 +1,1 @@
+/home/luis/redox/chronoOS/cookbook/recipes/ipcd/build/target/x86_64-unknown-redox/release/ipcd: /home/luis/redox/chronoOS/cookbook/recipes/ipcd/source/src/chan.rs /home/luis/redox/chronoOS/cookbook/recipes/ipcd/source/src/main.rs /home/luis/redox/chronoOS/cookbook/recipes/ipcd/source/src/shm.rs

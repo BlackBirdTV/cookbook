@@ -1,0 +1,12 @@
+[v1]
+"orbutils 0.1.16 (path+file:///home/luis/redox/chronoOS/cookbook/recipes/orbutils/source)" = [
+    "background",
+    "calculator",
+    "calendar",
+    "character_map",
+    "editor",
+    "file_manager",
+    "launcher",
+    "orblogin",
+    "viewer",
+]

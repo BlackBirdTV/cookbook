@@ -1,0 +1,1 @@
+/home/luis/redox/redox/cookbook/recipes/ramfs/build/target/x86_64-unknown-redox/release/ramfs: /home/luis/redox/redox/cookbook/recipes/ramfs/source/src/filesystem.rs /home/luis/redox/redox/cookbook/recipes/ramfs/source/src/main.rs /home/luis/redox/redox/cookbook/recipes/ramfs/source/src/scheme.rs

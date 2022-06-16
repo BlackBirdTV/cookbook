@@ -1,0 +1,8 @@
+xmlwf-codepage.o: \
+ /home/luis/redox/redox/cookbook/recipes/expat/source/xmlwf/codepage.c \
+ /home/luis/redox/redox/cookbook/recipes/expat/source/xmlwf/codepage.h \
+ /home/luis/redox/redox/cookbook/recipes/expat/source/xmlwf/../lib/internal.h
+
+/home/luis/redox/redox/cookbook/recipes/expat/source/xmlwf/codepage.h:
+
+/home/luis/redox/redox/cookbook/recipes/expat/source/xmlwf/../lib/internal.h:

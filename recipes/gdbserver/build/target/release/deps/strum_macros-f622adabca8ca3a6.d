@@ -1,0 +1,12 @@
+/home/luis/redox/chronoOS/cookbook/recipes/gdbserver/build/target/release/deps/libstrum_macros-f622adabca8ca3a6.so: /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/strum_macros-0.8.0/src/lib.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/strum_macros-0.8.0/src/helpers.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/strum_macros-0.8.0/src/as_ref_str.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/strum_macros-0.8.0/src/to_string.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/strum_macros-0.8.0/src/from_string.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/strum_macros-0.8.0/src/enum_iter.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/strum_macros-0.8.0/src/enum_messages.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/strum_macros-0.8.0/src/enum_properties.rs
+
+/home/luis/redox/chronoOS/cookbook/recipes/gdbserver/build/target/release/deps/strum_macros-f622adabca8ca3a6.d: /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/strum_macros-0.8.0/src/lib.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/strum_macros-0.8.0/src/helpers.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/strum_macros-0.8.0/src/as_ref_str.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/strum_macros-0.8.0/src/to_string.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/strum_macros-0.8.0/src/from_string.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/strum_macros-0.8.0/src/enum_iter.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/strum_macros-0.8.0/src/enum_messages.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/strum_macros-0.8.0/src/enum_properties.rs
+
+/home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/strum_macros-0.8.0/src/lib.rs:
+/home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/strum_macros-0.8.0/src/helpers.rs:
+/home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/strum_macros-0.8.0/src/as_ref_str.rs:
+/home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/strum_macros-0.8.0/src/to_string.rs:
+/home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/strum_macros-0.8.0/src/from_string.rs:
+/home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/strum_macros-0.8.0/src/enum_iter.rs:
+/home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/strum_macros-0.8.0/src/enum_messages.rs:
+/home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/strum_macros-0.8.0/src/enum_properties.rs:

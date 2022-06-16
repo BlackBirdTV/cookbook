@@ -1,0 +1,1 @@
+/home/luis/redox/chronoOS/cookbook/recipes/drivers/build/target/x86_64-unknown-redox/release/vboxd: /home/luis/redox/chronoOS/cookbook/recipes/drivers/source/vboxd/src/bga.rs /home/luis/redox/chronoOS/cookbook/recipes/drivers/source/vboxd/src/main.rs

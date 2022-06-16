@@ -1,0 +1,5 @@
+611a3507e058109e8a272f07d314cf99d2cf9717a5adeec67e7586b0604f8e64  bin/resist
+0eb5e62604b791a946b06203cc6006e31c25f7c5d0323be67e9549c80d442420  share/resist/posix/base.toml
+2260d336cf4fab7322bf9edab6319781e018835319f934adf4fda9c593e49201  share/resist/posix/shell.toml
+2be96797fe8a64cadd3c9b16eb86a5ffa1578ea85e7417fe75ab5ae8a2976589  share/resist/redox/build.sh
+17e8f9e9d63c1577008df7eb6ceb4867360c5f09bad9a1bca4133c385572ad2d  share/resist/redox/spec.toml

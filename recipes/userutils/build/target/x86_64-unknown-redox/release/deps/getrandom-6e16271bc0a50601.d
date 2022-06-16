@@ -1,0 +1,12 @@
+/home/luis/redox/chronoOS/cookbook/recipes/userutils/build/target/x86_64-unknown-redox/release/deps/getrandom-6e16271bc0a50601.rmeta: /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.5/src/lib.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.5/src/error.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.5/src/util.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.5/src/error_impls.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.5/src/util_libc.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.5/src/use_file.rs
+
+/home/luis/redox/chronoOS/cookbook/recipes/userutils/build/target/x86_64-unknown-redox/release/deps/libgetrandom-6e16271bc0a50601.rlib: /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.5/src/lib.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.5/src/error.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.5/src/util.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.5/src/error_impls.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.5/src/util_libc.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.5/src/use_file.rs
+
+/home/luis/redox/chronoOS/cookbook/recipes/userutils/build/target/x86_64-unknown-redox/release/deps/getrandom-6e16271bc0a50601.d: /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.5/src/lib.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.5/src/error.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.5/src/util.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.5/src/error_impls.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.5/src/util_libc.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.5/src/use_file.rs
+
+/home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.5/src/lib.rs:
+/home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.5/src/error.rs:
+/home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.5/src/util.rs:
+/home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.5/src/error_impls.rs:
+/home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.5/src/util_libc.rs:
+/home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.5/src/use_file.rs:

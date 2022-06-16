@@ -1,0 +1,12 @@
+/home/luis/redox/chronoOS/cookbook/recipes/orbutils/build/target/x86_64-unknown-redox/release/deps/gif-e042fa9f8b451c4a.rmeta: /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/gif-0.10.3/src/lib.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/gif-0.10.3/src/traits.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/gif-0.10.3/src/common.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/gif-0.10.3/src/reader/mod.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/gif-0.10.3/src/reader/decoder.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/gif-0.10.3/src/encoder.rs
+
+/home/luis/redox/chronoOS/cookbook/recipes/orbutils/build/target/x86_64-unknown-redox/release/deps/libgif-e042fa9f8b451c4a.rlib: /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/gif-0.10.3/src/lib.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/gif-0.10.3/src/traits.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/gif-0.10.3/src/common.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/gif-0.10.3/src/reader/mod.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/gif-0.10.3/src/reader/decoder.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/gif-0.10.3/src/encoder.rs
+
+/home/luis/redox/chronoOS/cookbook/recipes/orbutils/build/target/x86_64-unknown-redox/release/deps/gif-e042fa9f8b451c4a.d: /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/gif-0.10.3/src/lib.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/gif-0.10.3/src/traits.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/gif-0.10.3/src/common.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/gif-0.10.3/src/reader/mod.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/gif-0.10.3/src/reader/decoder.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/gif-0.10.3/src/encoder.rs
+
+/home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/gif-0.10.3/src/lib.rs:
+/home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/gif-0.10.3/src/traits.rs:
+/home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/gif-0.10.3/src/common.rs:
+/home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/gif-0.10.3/src/reader/mod.rs:
+/home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/gif-0.10.3/src/reader/decoder.rs:
+/home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/gif-0.10.3/src/encoder.rs:

@@ -1,0 +1,12 @@
+prefix=/home/luis/redox/redox/cookbook/pkgar/target/release/build/libsodium-sys-bf2911543481c334/out/installed
+exec_prefix=${prefix}
+libdir=/home/luis/redox/redox/cookbook/pkgar/target/release/build/libsodium-sys-bf2911543481c334/out/installed/lib
+includedir=${prefix}/include
+
+Name: libsodium
+Version: 1.0.18
+Description: A modern and easy-to-use crypto library
+
+Libs: -L${libdir} -lsodium
+Libs.private:  -pthread 
+Cflags: -I${includedir}

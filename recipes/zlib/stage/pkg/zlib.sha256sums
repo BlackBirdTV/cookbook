@@ -1,0 +1,5 @@
+77304005ceb5f0d03ad4c37eb8386a10866e4ceeb204f7c3b6599834c7319541  include/zconf.h
+045cf777c6c9109b28ddcf3a413c5ca15e39fc513c13ef87bd9a3132a59d1b51  include/zlib.h
+7ce3395ea4f91bc2c81e9ba74699d6dbfc5ab3359b3044df4c2e3a6aec2b9684  lib/libz.a
+f7d2e541f14ae8ff3ef31efb5d4ded629d0d252a102bff6ae86d1d38fbcdff7c  lib/pkgconfig/zlib.pc
+85a851e50a2bc2b3d8e72364dd9fc648dcccd34a439aaf0ae29f9dd59059e785  share/man/man3/zlib.3

@@ -1,0 +1,12 @@
+/home/luis/redox/chronoOS/cookbook/recipes/uutils/build/target/x86_64-unknown-redox/release/deps/libc-2e841ae017b3c390.rmeta: /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/libc-0.2.85/src/lib.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/libc-0.2.85/src/macros.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/libc-0.2.85/src/fixed_width_ints.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/libc-0.2.85/src/unix/mod.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/libc-0.2.85/src/unix/redox/mod.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/libc-0.2.85/src/unix/align.rs
+
+/home/luis/redox/chronoOS/cookbook/recipes/uutils/build/target/x86_64-unknown-redox/release/deps/liblibc-2e841ae017b3c390.rlib: /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/libc-0.2.85/src/lib.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/libc-0.2.85/src/macros.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/libc-0.2.85/src/fixed_width_ints.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/libc-0.2.85/src/unix/mod.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/libc-0.2.85/src/unix/redox/mod.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/libc-0.2.85/src/unix/align.rs
+
+/home/luis/redox/chronoOS/cookbook/recipes/uutils/build/target/x86_64-unknown-redox/release/deps/libc-2e841ae017b3c390.d: /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/libc-0.2.85/src/lib.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/libc-0.2.85/src/macros.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/libc-0.2.85/src/fixed_width_ints.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/libc-0.2.85/src/unix/mod.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/libc-0.2.85/src/unix/redox/mod.rs /home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/libc-0.2.85/src/unix/align.rs
+
+/home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/libc-0.2.85/src/lib.rs:
+/home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/libc-0.2.85/src/macros.rs:
+/home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/libc-0.2.85/src/fixed_width_ints.rs:
+/home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/libc-0.2.85/src/unix/mod.rs:
+/home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/libc-0.2.85/src/unix/redox/mod.rs:
+/home/luis/.cargo/registry/src/github.com-1ecc6299db9ec823/libc-0.2.85/src/unix/align.rs:

@@ -1,0 +1,1 @@
+/home/luis/redox/chronoOS/cookbook/recipes/userutils/build/target/x86_64-unknown-redox/release/usermod: /home/luis/redox/chronoOS/cookbook/recipes/userutils/source/src/bin/usermod.rs /home/luis/redox/chronoOS/cookbook/recipes/userutils/source/src/lib.rs

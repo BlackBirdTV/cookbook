@@ -1,0 +1,161 @@
+commit cfb47d30a5bb5dfcc6b0dc30698957d8605348c5 (HEAD, tag: v1.37.0, origin/master, origin/HEAD, master)
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2019-03-08
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2019-03-08
+
+    Take into account larger frame size for prioritization
+    
+    Larger frame size just destroys multiplexing and prioritization does
+    not work.
+
+commit dbbe4e017a353ced5264baa33db95f336a76c54f
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2019-03-08
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2019-03-08
+
+    Remove unused field
+
+commit 371bc3a8f74a4148c9ee5133db644177182f46fe
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2019-03-08
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2019-03-08
+
+    clang-format
+
+commit 5e7889c5ef28ef5ba57ac29626e4d8ae770bf2b9
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2019-03-07
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2019-03-07
+
+    Update manual pages
+
+commit b1b2ad5017f3923a84248058853d788336c30445
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2019-03-07
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2019-03-07
+
+    Bump up version number to 1.37.0, LT revision to 31:2:17
+
+commit e043ca83c5d9381febd0ab2041b617d3f90ad781
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2019-03-07
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2019-03-07
+
+    Update AUTHORS
+
+commit c2434dfbbc65b543eb2c27f7924242e90e7ae5f7
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2019-03-04
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2019-03-04
+
+    Simplify stream_less
+
+commit 816ad2102fe1e0c4e47a2160e1958dfdc2cbabc9
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2019-03-04
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2019-03-04
+
+    Reuse name when indexing header by referencing dynamic table
+
+commit f5feb16ef400fa72319eda0d34d863c6ff58fabc
+Merge: adf09f21 34482ed4
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2019-02-20
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2019-02-20
+
+    Merge pull request #1295 from bratkartoffel/fix-compile-boringssl
+    
+    Fix compilation with boringssl
+
+commit adf09f2124d16765f40fde3806ba9ee2aaf5b42e
+Merge: d93842db 2591960e
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2019-02-20
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2019-02-20
+
+    Merge pull request #1303 from donny-dont/fix-shared-install
+    
+    Explicitly set install location when building shared libs
+
+commit 2591960e2fc9aef919b010224a221f92a20da3d1
+Author:     Don <don.j.olmstead@gmail.com>
+AuthorDate: 2019-02-06
+Commit:     Don <don.j.olmstead@gmail.com>
+CommitDate: 2019-02-06
+
+    Explicitly set install location when building shared libs
+
+commit d93842db3eb481fc6953ec70a81ed2f7863ffb45
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2019-01-23
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2019-01-23
+
+    nghttpx: Fix backend stall if header and request body are sent in 2 packets
+
+commit 8dc2b263ba62c4b8c3e682757baa59a9708b3b7d
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2019-01-22
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2019-01-22
+
+    nghttpx: Use std::priority_queue
+
+commit 8d842701b512791b3f7613703070fb3079de33de
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2019-01-21
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2019-01-21
+
+    Update manual pages
+
+commit de85b0fda592934a64886ba6a584424b777e97ac
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2019-01-21
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2019-01-21
+
+    Update README
+
+commit 5d6beed59099487cf77fb0641aae575f3ce6d967
+Merge: 9b6ced66 1ff9de4c
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2019-01-21
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2019-01-21
+
+    Merge branch 'nghttpx-backend-weight'
+
+commit 1ff9de4c873908ca0612df10daef9ecd7b580051
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2019-01-19
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2019-01-21
+
+    nghttpx: Backend address selection with weight
+
+commit 34482ed4df79c7c143226f759af0a8834298acd1
+Author:     Simon Frankenberger <simon@fraho.eu>
+AuthorDate: 2019-01-18
+Commit:     Simon Frankenberger <simon@fraho.eu>
+CommitDate: 2019-01-18
+
+    Fix compilation with boringssl
+
+commit 9b6ced66f3b89a3a005002ff2df68dae9d7295cd
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2019-01-18
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2019-01-18
+
+    Bump up version number to 1.37.0-DEV

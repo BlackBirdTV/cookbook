@@ -1,0 +1,1 @@
+/home/luis/redox/chronoOS/cookbook/recipes/userutils/build/target/x86_64-unknown-redox/release/getty: /home/luis/redox/chronoOS/cookbook/recipes/userutils/source/src/bin/getty.rs /home/luis/redox/chronoOS/cookbook/recipes/userutils/source/src/lib.rs

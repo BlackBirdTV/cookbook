@@ -1,0 +1,10 @@
+prefix=/home/luis/redox/redox/cookbook/recipes/netsurf/build/inst-framebuffer
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libnsbmp
+Description: Provides bmp loading and conversion
+Version: 0.1.4
+Libs: -L${libdir} -lnsbmp
+Cflags: -I${includedir}/

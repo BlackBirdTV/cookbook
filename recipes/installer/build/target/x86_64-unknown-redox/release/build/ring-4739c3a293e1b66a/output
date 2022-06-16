@@ -1,0 +1,576 @@
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL: true
+AR: x86_64-unknown-redox-gcc-ar
+AR_x86_64_unknown_redox: x86_64-unknown-redox-ar
+AS: x86_64-unknown-redox-as
+BAMF_DESKTOP_FILE_HINT: /var/lib/snapd/desktop/applications/code_code.desktop
+CARGO: /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/bin/cargo
+CARGO_CFG_PANIC: unwind
+CARGO_CFG_TARGET_ABI: 
+CARGO_CFG_TARGET_ARCH: x86_64
+CARGO_CFG_TARGET_ENDIAN: little
+CARGO_CFG_TARGET_ENV: relibc
+CARGO_CFG_TARGET_FAMILY: unix
+CARGO_CFG_TARGET_FEATURE: fxsr,llvm14-builtins-abi,sse,sse2
+CARGO_CFG_TARGET_HAS_ATOMIC: 16,32,64,8,ptr
+CARGO_CFG_TARGET_HAS_ATOMIC_EQUAL_ALIGNMENT: 16,32,64,8,ptr
+CARGO_CFG_TARGET_HAS_ATOMIC_LOAD_STORE: 16,32,64,8,ptr
+CARGO_CFG_TARGET_OS: redox
+CARGO_CFG_TARGET_POINTER_WIDTH: 64
+CARGO_CFG_TARGET_THREAD_LOCAL: 
+CARGO_CFG_TARGET_VENDOR: unknown
+CARGO_CFG_UNIX: 
+CARGO_ENCODED_RUSTFLAGS: -L/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/lib
+CARGO_FEATURE_DEFAULT: 1
+CARGO_FEATURE_DEV_URANDOM_FALLBACK: 1
+CARGO_FEATURE_RSA_SIGNING: 1
+CARGO_FEATURE_USE_HEAP: 1
+CARGO_MAKEFLAGS: -j --jobserver-fds=6,10 --jobserver-auth=6,10
+CARGO_MANIFEST_DIR: /home/luis/.cargo/git/checkouts/ring-673443d3342e1630/c7de589
+CARGO_MANIFEST_LINKS: ring-asm
+CARGO_PKG_AUTHORS: Brian Smith <brian@briansmith.org>
+CARGO_PKG_DESCRIPTION: Safe, fast, small crypto using Rust.
+CARGO_PKG_HOMEPAGE: 
+CARGO_PKG_LICENSE: 
+CARGO_PKG_LICENSE_FILE: LICENSE
+CARGO_PKG_NAME: ring
+CARGO_PKG_REPOSITORY: https://github.com/briansmith/ring
+CARGO_PKG_VERSION: 0.13.5
+CARGO_PKG_VERSION_MAJOR: 0
+CARGO_PKG_VERSION_MINOR: 13
+CARGO_PKG_VERSION_PATCH: 5
+CARGO_PKG_VERSION_PRE: 
+CARGO_TARGET_DIR: /home/luis/redox/chronoOS/cookbook/recipes/installer/build/target
+CARGO_TARGET_X86_64_UNKNOWN_REDOX_LINKER: x86_64-unknown-redox-gcc
+CARGO_TARGET_X86_64_UNKNOWN_REDOX_RUNNER: /home/luis/redox/chronoOS/cookbook/target/release/cookbook_redoxer exec --folder .
+CC: x86_64-unknown-redox-gcc
+CC_x86_64_unknown_redox: x86_64-unknown-redox-gcc
+CFLAGS: -I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include
+CHROME_DESKTOP: code-url-handler.desktop
+COLORTERM: truecolor
+COOKBOOK_BUILD: /home/luis/redox/chronoOS/cookbook/recipes/installer/build
+COOKBOOK_RECIPE: /home/luis/redox/chronoOS/cookbook/recipes/installer
+COOKBOOK_REDOXER: /home/luis/redox/chronoOS/cookbook/target/release/cookbook_redoxer
+COOKBOOK_ROOT: /home/luis/redox/chronoOS/cookbook
+COOKBOOK_SOURCE: /home/luis/redox/chronoOS/cookbook/recipes/installer/source
+COOKBOOK_STAGE: /home/luis/redox/chronoOS/cookbook/recipes/installer/stage.tmp
+COOKBOOK_SYSROOT: /home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot
+CPPFLAGS: -I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include
+CXX: x86_64-unknown-redox-g++
+CXX_x86_64_unknown_redox: x86_64-unknown-redox-g++
+DBUS_SESSION_BUS_ADDRESS: unix:path=/run/user/1000/bus
+DEBUG: false
+DESKTOP_SESSION: budgie-desktop
+DISABLE_WAYLAND: 1
+DISPLAY: :0
+GDK_BACKEND: x11
+GDMSESSION: budgie-desktop
+GDM_LANG: en_US
+GIO_LAUNCHED_DESKTOP_FILE: /var/lib/snapd/desktop/applications/code_code.desktop
+GIO_LAUNCHED_DESKTOP_FILE_PID: 1735
+GIT_ASKPASS: /snap/code/98/usr/share/code/resources/app/extensions/git/dist/askpass.sh
+GNOME_DESKTOP_SESSION_ID: this-is-deprecated
+GPG_AGENT_INFO: /run/user/1000/gnupg/S.gpg-agent:0:1
+GSETTINGS_SCHEMA_DIR: /snap/code/98/usr/share/glib-2.0/schemas
+GTK3_MODULES: xapp-gtk3-module
+GTK_MODULES: appmenu-gtk-module:gail:atk-bridge:appmenu-gtk-module
+HOME: /home/luis
+HOST: x86_64-unknown-linux-gnu
+LANG: en_US.UTF-8
+LANGUAGE: en_US
+LC_ADDRESS: de_DE.UTF-8
+LC_IDENTIFICATION: de_DE.UTF-8
+LC_MEASUREMENT: de_DE.UTF-8
+LC_MONETARY: de_DE.UTF-8
+LC_NAME: de_DE.UTF-8
+LC_NUMERIC: de_DE.UTF-8
+LC_PAPER: de_DE.UTF-8
+LC_TELEPHONE: de_DE.UTF-8
+LC_TIME: de_DE.UTF-8
+LD: x86_64-unknown-redox-ld
+LDFLAGS: -L/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/lib --static
+LD_LIBRARY_PATH: /home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/release/deps:/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/release:/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/lib/rustlib/x86_64-unknown-linux-gnu/lib
+LESSCLOSE: /usr/bin/lesspipe %s %s
+LESSOPEN: | /usr/bin/lesspipe %s
+LOGNAME: luis
+LS_COLORS: rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+MAKEFLAGS: 
+MAKELEVEL: 1
+MAKE_TERMERR: /dev/pts/0
+MAKE_TERMOUT: /dev/pts/0
+MFLAGS: 
+NM: x86_64-unknown-redox-gcc-nm
+NPROC: nproc
+NUM_JOBS: 4
+OBJCOPY: x86_64-unknown-redox-objcopy
+OBJDUMP: x86_64-unknown-redox-objdump
+OPT_LEVEL: 3
+ORIGINAL_XDG_CURRENT_DESKTOP: Budgie:GNOME
+OUT_DIR: /home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out
+PATH: /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/bin:/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/bin:/home/luis/redox/chronoOS/cookbook/bin:/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/bin:/home/luis/redox/chronoOS/cookbook/bin:/home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/bin:/home/luis/.cargo/bin:/home/luis/.cargo/bin:/home/luis/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+PKG_CONFIG: x86_64-unknown-redox-pkg-config
+PKG_CONFIG_ALLOW_CROSS: 1
+PKG_CONFIG_FOR_BUILD: pkg-config
+PKG_CONFIG_LIBDIR: /home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/lib/pkgconfig
+PKG_CONFIG_PATH: 
+PKG_CONFIG_SYSROOT_DIR: /home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot
+PREFIX_RUSTFLAGS: -L /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install/x86_64-unknown-redox/lib
+PROFILE: release
+PWD: /home/luis/redox/chronoOS/cookbook/recipes/installer/build
+QT_ACCESSIBILITY: 1
+QT_IM_MODULE: ibus
+RANLIB: x86_64-unknown-redox-gcc-ranlib
+READELF: x86_64-unknown-redox-readelf
+REDOXER_TOOLCHAIN: /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install
+REDOX_MAKE: make
+RUSTC: rustc
+RUSTC_LINKER: x86_64-unknown-redox-gcc
+RUSTDOC: rustdoc
+RUSTUP_TOOLCHAIN: /home/luis/redox/chronoOS/prefix/x86_64-unknown-redox/relibc-install
+RUST_COMPILER_RT_ROOT: /home/luis/redox/chronoOS/rust/src/llvm-project/compiler-rt
+RUST_TARGET_PATH: /home/luis/redox/chronoOS/kernel/targets
+SESSION_MANAGER: local/luis-ThinkPad-T460:@/tmp/.ICE-unix/941,unix/luis-ThinkPad-T460:/tmp/.ICE-unix/941
+SHELL: /bin/bash
+SHLVL: 3
+SSH_AUTH_SOCK: /run/user/1000/keyring/ssh
+SSL_CERT_DIR: /usr/lib/ssl/certs
+SSL_CERT_FILE: /usr/lib/ssl/certs/ca-certificates.crt
+STRIP: x86_64-unknown-redox-strip
+TARGET: x86_64-unknown-redox
+TERM: xterm-256color
+TERM_PROGRAM: vscode
+TERM_PROGRAM_VERSION: 1.68.0
+UBUNTU_MENUPROXY: 1
+USER: luis
+VSCODE_GIT_ASKPASS_EXTRA_ARGS: --ms-enable-electron-run-as-node
+VSCODE_GIT_ASKPASS_MAIN: /snap/code/98/usr/share/code/resources/app/extensions/git/dist/askpass-main.js
+VSCODE_GIT_ASKPASS_NODE: /snap/code/98/usr/share/code/code
+VSCODE_GIT_IPC_HANDLE: /run/user/1000/vscode-git-0ebebd1558.sock
+XARGO_HOME: /home/luis/redox/chronoOS/cookbook/xargo
+XARGO_RUST_SRC: /home/luis/redox/chronoOS/rust/src
+XAUTHORITY: /home/luis/.Xauthority
+XDG_CONFIG_DIRS: /etc/xdg/xdg-budgie-desktop:/etc/xdg
+XDG_CURRENT_DESKTOP: Budgie:GNOME
+XDG_DATA_DIRS: /usr/share/budgie-desktop:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+XDG_GREETER_DATA_DIR: /var/lib/lightdm-data/luis
+XDG_MENU_PREFIX: gnome-
+XDG_RUNTIME_DIR: /run/user/1000
+XDG_SEAT_PATH: /org/freedesktop/DisplayManager/Seat0
+XDG_SESSION_CLASS: user
+XDG_SESSION_DESKTOP: budgie-desktop
+XDG_SESSION_PATH: /org/freedesktop/DisplayManager/Session0
+XDG_SESSION_TYPE: x11
+XMODIFIERS: @im=ibus
+_: /home/luis/redox/chronoOS/cookbook/target/release/cookbook_redoxer
+running "perl" "crypto/fipsmodule/aes/asm/aes-x86_64.pl" "elf" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/aes-x86_64-elf.S"
+running "perl" "crypto/fipsmodule/aes/asm/aesni-x86_64.pl" "elf" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/aesni-x86_64-elf.S"
+running "perl" "crypto/fipsmodule/aes/asm/vpaes-x86_64.pl" "elf" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/vpaes-x86_64-elf.S"
+running "perl" "crypto/fipsmodule/bn/asm/x86_64-mont.pl" "elf" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/x86_64-mont-elf.S"
+running "perl" "crypto/fipsmodule/bn/asm/x86_64-mont5.pl" "elf" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/x86_64-mont5-elf.S"
+running "perl" "crypto/chacha/asm/chacha-x86_64.pl" "elf" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/chacha-x86_64-elf.S"
+running "perl" "crypto/fipsmodule/ec/asm/p256-x86_64-asm.pl" "elf" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/p256-x86_64-asm-elf.S"
+running "perl" "crypto/fipsmodule/modes/asm/aesni-gcm-x86_64.pl" "elf" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/aesni-gcm-x86_64-elf.S"
+running "perl" "crypto/fipsmodule/modes/asm/ghash-x86_64.pl" "elf" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/ghash-x86_64-elf.S"
+running "perl" "crypto/poly1305/asm/poly1305-x86_64.pl" "elf" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/poly1305-x86_64-elf.S"
+running "perl" "crypto/fipsmodule/sha/asm/sha512-x86_64.pl" "elf" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/sha512-x86_64-elf.S"
+running "perl" "crypto/fipsmodule/sha/asm/sha512-x86_64.pl" "elf" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/sha256-x86_64-elf.S"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-redox")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-redox = None
+CC_x86_64_unknown_redox = Some("x86_64-unknown-redox-gcc")
+CFLAGS_x86_64-unknown-redox = None
+CFLAGS_x86_64_unknown_redox = None
+TARGET_CFLAGS = None
+CFLAGS = Some("-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include")
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+running "x86_64-unknown-redox-gcc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include" "-I" "include" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-c" "-o/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/aes-x86_64-elf.o" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/aes-x86_64-elf.S"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-redox")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-redox = None
+CC_x86_64_unknown_redox = Some("x86_64-unknown-redox-gcc")
+CFLAGS_x86_64-unknown-redox = None
+CFLAGS_x86_64_unknown_redox = None
+TARGET_CFLAGS = None
+CFLAGS = Some("-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include")
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+running "x86_64-unknown-redox-gcc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include" "-I" "include" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-c" "-o/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/aesni-x86_64-elf.o" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/aesni-x86_64-elf.S"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-redox")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-redox = None
+CC_x86_64_unknown_redox = Some("x86_64-unknown-redox-gcc")
+CFLAGS_x86_64-unknown-redox = None
+CFLAGS_x86_64_unknown_redox = None
+TARGET_CFLAGS = None
+CFLAGS = Some("-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include")
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+running "x86_64-unknown-redox-gcc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include" "-I" "include" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-c" "-o/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/vpaes-x86_64-elf.o" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/vpaes-x86_64-elf.S"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-redox")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-redox = None
+CC_x86_64_unknown_redox = Some("x86_64-unknown-redox-gcc")
+CFLAGS_x86_64-unknown-redox = None
+CFLAGS_x86_64_unknown_redox = None
+TARGET_CFLAGS = None
+CFLAGS = Some("-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include")
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+running "x86_64-unknown-redox-gcc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include" "-I" "include" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-c" "-o/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/x86_64-mont-elf.o" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/x86_64-mont-elf.S"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-redox")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-redox = None
+CC_x86_64_unknown_redox = Some("x86_64-unknown-redox-gcc")
+CFLAGS_x86_64-unknown-redox = None
+CFLAGS_x86_64_unknown_redox = None
+TARGET_CFLAGS = None
+CFLAGS = Some("-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include")
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+running "x86_64-unknown-redox-gcc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include" "-I" "include" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-c" "-o/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/x86_64-mont5-elf.o" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/x86_64-mont5-elf.S"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-redox")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-redox = None
+CC_x86_64_unknown_redox = Some("x86_64-unknown-redox-gcc")
+CFLAGS_x86_64-unknown-redox = None
+CFLAGS_x86_64_unknown_redox = None
+TARGET_CFLAGS = None
+CFLAGS = Some("-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include")
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+running "x86_64-unknown-redox-gcc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include" "-I" "include" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-c" "-o/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/chacha-x86_64-elf.o" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/chacha-x86_64-elf.S"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-redox")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-redox = None
+CC_x86_64_unknown_redox = Some("x86_64-unknown-redox-gcc")
+CFLAGS_x86_64-unknown-redox = None
+CFLAGS_x86_64_unknown_redox = None
+TARGET_CFLAGS = None
+CFLAGS = Some("-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include")
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+running "x86_64-unknown-redox-gcc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include" "-I" "include" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-c" "-o/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/p256-x86_64-asm-elf.o" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/p256-x86_64-asm-elf.S"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-redox")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-redox = None
+CC_x86_64_unknown_redox = Some("x86_64-unknown-redox-gcc")
+CFLAGS_x86_64-unknown-redox = None
+CFLAGS_x86_64_unknown_redox = None
+TARGET_CFLAGS = None
+CFLAGS = Some("-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include")
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+running "x86_64-unknown-redox-gcc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include" "-I" "include" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-c" "-o/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/aesni-gcm-x86_64-elf.o" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/aesni-gcm-x86_64-elf.S"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-redox")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-redox = None
+CC_x86_64_unknown_redox = Some("x86_64-unknown-redox-gcc")
+CFLAGS_x86_64-unknown-redox = None
+CFLAGS_x86_64_unknown_redox = None
+TARGET_CFLAGS = None
+CFLAGS = Some("-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include")
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+running "x86_64-unknown-redox-gcc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include" "-I" "include" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-c" "-o/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/ghash-x86_64-elf.o" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/ghash-x86_64-elf.S"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-redox")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-redox = None
+CC_x86_64_unknown_redox = Some("x86_64-unknown-redox-gcc")
+CFLAGS_x86_64-unknown-redox = None
+CFLAGS_x86_64_unknown_redox = None
+TARGET_CFLAGS = None
+CFLAGS = Some("-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include")
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+running "x86_64-unknown-redox-gcc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include" "-I" "include" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-c" "-o/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/poly1305-x86_64-elf.o" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/poly1305-x86_64-elf.S"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-redox")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-redox = None
+CC_x86_64_unknown_redox = Some("x86_64-unknown-redox-gcc")
+CFLAGS_x86_64-unknown-redox = None
+CFLAGS_x86_64_unknown_redox = None
+TARGET_CFLAGS = None
+CFLAGS = Some("-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include")
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+running "x86_64-unknown-redox-gcc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include" "-I" "include" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-c" "-o/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/sha512-x86_64-elf.o" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/sha512-x86_64-elf.S"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-redox")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-redox = None
+CC_x86_64_unknown_redox = Some("x86_64-unknown-redox-gcc")
+CFLAGS_x86_64-unknown-redox = None
+CFLAGS_x86_64_unknown_redox = None
+TARGET_CFLAGS = None
+CFLAGS = Some("-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include")
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+running "x86_64-unknown-redox-gcc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include" "-I" "include" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-c" "-o/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/sha256-x86_64-elf.o" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/sha256-x86_64-elf.S"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-redox")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-redox = None
+CC_x86_64_unknown_redox = Some("x86_64-unknown-redox-gcc")
+CFLAGS_x86_64-unknown-redox = None
+CFLAGS_x86_64_unknown_redox = None
+TARGET_CFLAGS = None
+CFLAGS = Some("-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include")
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+running "x86_64-unknown-redox-gcc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-c" "-o/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/aes.o" "crypto/fipsmodule/aes/aes.c"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-redox")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-redox = None
+CC_x86_64_unknown_redox = Some("x86_64-unknown-redox-gcc")
+CFLAGS_x86_64-unknown-redox = None
+CFLAGS_x86_64_unknown_redox = None
+TARGET_CFLAGS = None
+CFLAGS = Some("-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include")
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+running "x86_64-unknown-redox-gcc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-c" "-o/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/exponentiation.o" "crypto/fipsmodule/bn/exponentiation.c"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-redox")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-redox = None
+CC_x86_64_unknown_redox = Some("x86_64-unknown-redox-gcc")
+CFLAGS_x86_64-unknown-redox = None
+CFLAGS_x86_64_unknown_redox = None
+TARGET_CFLAGS = None
+CFLAGS = Some("-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include")
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+running "x86_64-unknown-redox-gcc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-c" "-o/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/generic.o" "crypto/fipsmodule/bn/generic.c"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-redox")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-redox = None
+CC_x86_64_unknown_redox = Some("x86_64-unknown-redox-gcc")
+CFLAGS_x86_64-unknown-redox = None
+CFLAGS_x86_64_unknown_redox = None
+TARGET_CFLAGS = None
+CFLAGS = Some("-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include")
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+running "x86_64-unknown-redox-gcc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-c" "-o/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/montgomery.o" "crypto/fipsmodule/bn/montgomery.c"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-redox")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-redox = None
+CC_x86_64_unknown_redox = Some("x86_64-unknown-redox-gcc")
+CFLAGS_x86_64-unknown-redox = None
+CFLAGS_x86_64_unknown_redox = None
+TARGET_CFLAGS = None
+CFLAGS = Some("-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include")
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+running "x86_64-unknown-redox-gcc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-c" "-o/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/montgomery_inv.o" "crypto/fipsmodule/bn/montgomery_inv.c"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-redox")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-redox = None
+CC_x86_64_unknown_redox = Some("x86_64-unknown-redox-gcc")
+CFLAGS_x86_64-unknown-redox = None
+CFLAGS_x86_64_unknown_redox = None
+TARGET_CFLAGS = None
+CFLAGS = Some("-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include")
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+running "x86_64-unknown-redox-gcc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-c" "-o/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/shift.o" "crypto/fipsmodule/bn/shift.c"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-redox")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-redox = None
+CC_x86_64_unknown_redox = Some("x86_64-unknown-redox-gcc")
+CFLAGS_x86_64-unknown-redox = None
+CFLAGS_x86_64_unknown_redox = None
+TARGET_CFLAGS = None
+CFLAGS = Some("-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include")
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+running "x86_64-unknown-redox-gcc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-c" "-o/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/e_aes.o" "crypto/fipsmodule/cipher/e_aes.c"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-redox")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-redox = None
+CC_x86_64_unknown_redox = Some("x86_64-unknown-redox-gcc")
+CFLAGS_x86_64-unknown-redox = None
+CFLAGS_x86_64_unknown_redox = None
+TARGET_CFLAGS = None
+CFLAGS = Some("-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include")
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+running "x86_64-unknown-redox-gcc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-c" "-o/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/crypto.o" "crypto/crypto.c"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-redox")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-redox = None
+CC_x86_64_unknown_redox = Some("x86_64-unknown-redox-gcc")
+CFLAGS_x86_64-unknown-redox = None
+CFLAGS_x86_64_unknown_redox = None
+TARGET_CFLAGS = None
+CFLAGS = Some("-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include")
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+running "x86_64-unknown-redox-gcc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-c" "-o/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/ecp_nistz.o" "crypto/fipsmodule/ec/ecp_nistz.c"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-redox")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-redox = None
+CC_x86_64_unknown_redox = Some("x86_64-unknown-redox-gcc")
+CFLAGS_x86_64-unknown-redox = None
+CFLAGS_x86_64_unknown_redox = None
+TARGET_CFLAGS = None
+CFLAGS = Some("-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include")
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+running "x86_64-unknown-redox-gcc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-c" "-o/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/ecp_nistz256.o" "crypto/fipsmodule/ec/ecp_nistz256.c"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-redox")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-redox = None
+CC_x86_64_unknown_redox = Some("x86_64-unknown-redox-gcc")
+CFLAGS_x86_64-unknown-redox = None
+CFLAGS_x86_64_unknown_redox = None
+TARGET_CFLAGS = None
+CFLAGS = Some("-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include")
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+running "x86_64-unknown-redox-gcc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-c" "-o/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/gfp_p256.o" "crypto/fipsmodule/ec/gfp_p256.c"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-redox")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-redox = None
+CC_x86_64_unknown_redox = Some("x86_64-unknown-redox-gcc")
+CFLAGS_x86_64-unknown-redox = None
+CFLAGS_x86_64_unknown_redox = None
+TARGET_CFLAGS = None
+CFLAGS = Some("-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include")
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+running "x86_64-unknown-redox-gcc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-c" "-o/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/gfp_p384.o" "crypto/fipsmodule/ec/gfp_p384.c"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-redox")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-redox = None
+CC_x86_64_unknown_redox = Some("x86_64-unknown-redox-gcc")
+CFLAGS_x86_64-unknown-redox = None
+CFLAGS_x86_64_unknown_redox = None
+TARGET_CFLAGS = None
+CFLAGS = Some("-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include")
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+running "x86_64-unknown-redox-gcc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-c" "-o/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/limbs.o" "crypto/limbs/limbs.c"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-redox")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-redox = None
+CC_x86_64_unknown_redox = Some("x86_64-unknown-redox-gcc")
+CFLAGS_x86_64-unknown-redox = None
+CFLAGS_x86_64_unknown_redox = None
+TARGET_CFLAGS = None
+CFLAGS = Some("-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include")
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+running "x86_64-unknown-redox-gcc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-c" "-o/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/mem.o" "crypto/mem.c"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-redox")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-redox = None
+CC_x86_64_unknown_redox = Some("x86_64-unknown-redox-gcc")
+CFLAGS_x86_64-unknown-redox = None
+CFLAGS_x86_64_unknown_redox = None
+TARGET_CFLAGS = None
+CFLAGS = Some("-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include")
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+running "x86_64-unknown-redox-gcc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-c" "-o/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/gcm.o" "crypto/fipsmodule/modes/gcm.c"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-redox")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-redox = None
+CC_x86_64_unknown_redox = Some("x86_64-unknown-redox-gcc")
+CFLAGS_x86_64-unknown-redox = None
+CFLAGS_x86_64_unknown_redox = None
+TARGET_CFLAGS = None
+CFLAGS = Some("-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include")
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+running "x86_64-unknown-redox-gcc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-c" "-o/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/curve25519.o" "third_party/fiat/curve25519.c"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-redox")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-redox = None
+CC_x86_64_unknown_redox = Some("x86_64-unknown-redox-gcc")
+CFLAGS_x86_64-unknown-redox = None
+CFLAGS_x86_64_unknown_redox = None
+TARGET_CFLAGS = None
+CFLAGS = Some("-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include")
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+running "x86_64-unknown-redox-gcc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-c" "-o/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/cpu-intel.o" "crypto/cpu-intel.c"
+running: "x86_64-unknown-redox-ar" "cq" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/libring-core.a" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/aes-x86_64-elf.o" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/aesni-x86_64-elf.o" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/vpaes-x86_64-elf.o" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/x86_64-mont-elf.o" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/x86_64-mont5-elf.o" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/chacha-x86_64-elf.o" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/p256-x86_64-asm-elf.o" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/aesni-gcm-x86_64-elf.o" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/ghash-x86_64-elf.o" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/poly1305-x86_64-elf.o" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/sha512-x86_64-elf.o" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/sha256-x86_64-elf.o" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/aes.o" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/exponentiation.o" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/generic.o" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/montgomery.o" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/montgomery_inv.o" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/shift.o" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/e_aes.o" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/crypto.o" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/ecp_nistz.o" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/ecp_nistz256.o" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/gfp_p256.o" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/gfp_p384.o" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/limbs.o" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/mem.o" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/gcm.o" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/curve25519.o" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/cpu-intel.o"
+exit status: 0
+running: "x86_64-unknown-redox-ar" "s" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/libring-core.a"
+exit status: 0
+cargo:rustc-link-lib=static=ring-core
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-redox")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-redox = None
+CC_x86_64_unknown_redox = Some("x86_64-unknown-redox-gcc")
+CFLAGS_x86_64-unknown-redox = None
+CFLAGS_x86_64_unknown_redox = None
+TARGET_CFLAGS = None
+CFLAGS = Some("-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include")
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+running "x86_64-unknown-redox-gcc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I/home/luis/redox/chronoOS/cookbook/recipes/installer/sysroot/include" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-c" "-o/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/constant_time_test.o" "crypto/constant_time_test.c"
+running: "x86_64-unknown-redox-ar" "cq" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/libring-test.a" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/constant_time_test.o"
+exit status: 0
+running: "x86_64-unknown-redox-ar" "s" "/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out/libring-test.a"
+exit status: 0
+cargo:rustc-link-lib=static=ring-test
+cargo:rustc-link-search=native=/home/luis/redox/chronoOS/cookbook/recipes/installer/build/target/x86_64-unknown-redox/release/build/ring-4739c3a293e1b66a/out

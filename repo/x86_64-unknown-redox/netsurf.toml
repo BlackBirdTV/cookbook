@@ -1,0 +1,4 @@
+name = "netsurf"
+version = "3.7"
+target = "framebuffer"
+depends = ["ca-certificates","orbital"]

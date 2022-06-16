@@ -1,0 +1,1 @@
+/home/luis/redox/chronoOS/cookbook/recipes/drivers/build/target/x86_64-unknown-redox/release/alxd: /home/luis/redox/chronoOS/cookbook/recipes/drivers/source/alxd/src/device/mod.rs /home/luis/redox/chronoOS/cookbook/recipes/drivers/source/alxd/src/device/regs.rs /home/luis/redox/chronoOS/cookbook/recipes/drivers/source/alxd/src/main.rs

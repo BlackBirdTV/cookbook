@@ -1,0 +1,1 @@
+/home/luis/redox/chronoOS/cookbook/recipes/userutils/build/target/x86_64-unknown-redox/release/groupadd: /home/luis/redox/chronoOS/cookbook/recipes/userutils/source/src/bin/groupadd.rs /home/luis/redox/chronoOS/cookbook/recipes/userutils/source/src/lib.rs

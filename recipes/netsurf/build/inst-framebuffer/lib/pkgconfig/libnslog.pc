@@ -1,0 +1,10 @@
+prefix=/home/luis/redox/redox/cookbook/recipes/netsurf/build/inst-framebuffer
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libnslog
+Description: NetSurf Logging sublayer
+Version: 0.1.0
+Libs: -L${libdir} -lnslog
+Cflags: -I${includedir}

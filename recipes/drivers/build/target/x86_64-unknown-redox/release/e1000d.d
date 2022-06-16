@@ -1,0 +1,1 @@
+/home/luis/redox/chronoOS/cookbook/recipes/drivers/build/target/x86_64-unknown-redox/release/e1000d: /home/luis/redox/chronoOS/cookbook/recipes/drivers/source/e1000d/src/device.rs /home/luis/redox/chronoOS/cookbook/recipes/drivers/source/e1000d/src/main.rs

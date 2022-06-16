@@ -1,0 +1,61 @@
+cargo:rerun-if-env-changed=BZIP2_NO_PKG_CONFIG
+cargo:rerun-if-env-changed=PKG_CONFIG_ALLOW_CROSS_x86_64-unknown-redox
+cargo:rerun-if-env-changed=PKG_CONFIG_ALLOW_CROSS_x86_64_unknown_redox
+cargo:rerun-if-env-changed=TARGET_PKG_CONFIG_ALLOW_CROSS
+cargo:rerun-if-env-changed=PKG_CONFIG_ALLOW_CROSS
+cargo:rerun-if-env-changed=PKG_CONFIG_x86_64-unknown-redox
+cargo:rerun-if-env-changed=PKG_CONFIG_x86_64_unknown_redox
+cargo:rerun-if-env-changed=TARGET_PKG_CONFIG
+cargo:rerun-if-env-changed=PKG_CONFIG
+cargo:rerun-if-env-changed=BZIP2_STATIC
+cargo:rerun-if-env-changed=BZIP2_DYNAMIC
+cargo:rerun-if-env-changed=PKG_CONFIG_ALL_STATIC
+cargo:rerun-if-env-changed=PKG_CONFIG_ALL_DYNAMIC
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64-unknown-redox
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64_unknown_redox
+cargo:rerun-if-env-changed=TARGET_PKG_CONFIG_PATH
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64-unknown-redox
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64_unknown_redox
+cargo:rerun-if-env-changed=TARGET_PKG_CONFIG_LIBDIR
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64-unknown-redox
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64_unknown_redox
+cargo:rerun-if-env-changed=TARGET_PKG_CONFIG_SYSROOT_DIR
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR
+TARGET = Some("x86_64-unknown-redox")
+OPT_LEVEL = Some("3")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-redox = None
+CC_x86_64_unknown_redox = Some("x86_64-unknown-redox-gcc")
+CFLAGS_x86_64-unknown-redox = None
+CFLAGS_x86_64_unknown_redox = None
+TARGET_CFLAGS = None
+CFLAGS = Some("-I/home/luis/redox/chronoOS/cookbook/recipes/extrautils/sysroot/include")
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+running: "x86_64-unknown-redox-gcc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I/home/luis/redox/chronoOS/cookbook/recipes/extrautils/sysroot/include" "-I" "bzip2-1.0.8" "-D_FILE_OFFSET_BITS=64" "-DBZ_NO_STDIO" "-o" "/home/luis/redox/chronoOS/cookbook/recipes/extrautils/build/target/x86_64-unknown-redox/release/build/bzip2-sys-06c092af9d79cb29/out/lib/bzip2-1.0.8/blocksort.o" "-c" "bzip2-1.0.8/blocksort.c"
+exit status: 0
+running: "x86_64-unknown-redox-gcc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I/home/luis/redox/chronoOS/cookbook/recipes/extrautils/sysroot/include" "-I" "bzip2-1.0.8" "-D_FILE_OFFSET_BITS=64" "-DBZ_NO_STDIO" "-o" "/home/luis/redox/chronoOS/cookbook/recipes/extrautils/build/target/x86_64-unknown-redox/release/build/bzip2-sys-06c092af9d79cb29/out/lib/bzip2-1.0.8/huffman.o" "-c" "bzip2-1.0.8/huffman.c"
+exit status: 0
+running: "x86_64-unknown-redox-gcc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I/home/luis/redox/chronoOS/cookbook/recipes/extrautils/sysroot/include" "-I" "bzip2-1.0.8" "-D_FILE_OFFSET_BITS=64" "-DBZ_NO_STDIO" "-o" "/home/luis/redox/chronoOS/cookbook/recipes/extrautils/build/target/x86_64-unknown-redox/release/build/bzip2-sys-06c092af9d79cb29/out/lib/bzip2-1.0.8/crctable.o" "-c" "bzip2-1.0.8/crctable.c"
+exit status: 0
+running: "x86_64-unknown-redox-gcc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I/home/luis/redox/chronoOS/cookbook/recipes/extrautils/sysroot/include" "-I" "bzip2-1.0.8" "-D_FILE_OFFSET_BITS=64" "-DBZ_NO_STDIO" "-o" "/home/luis/redox/chronoOS/cookbook/recipes/extrautils/build/target/x86_64-unknown-redox/release/build/bzip2-sys-06c092af9d79cb29/out/lib/bzip2-1.0.8/randtable.o" "-c" "bzip2-1.0.8/randtable.c"
+exit status: 0
+running: "x86_64-unknown-redox-gcc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I/home/luis/redox/chronoOS/cookbook/recipes/extrautils/sysroot/include" "-I" "bzip2-1.0.8" "-D_FILE_OFFSET_BITS=64" "-DBZ_NO_STDIO" "-o" "/home/luis/redox/chronoOS/cookbook/recipes/extrautils/build/target/x86_64-unknown-redox/release/build/bzip2-sys-06c092af9d79cb29/out/lib/bzip2-1.0.8/compress.o" "-c" "bzip2-1.0.8/compress.c"
+exit status: 0
+running: "x86_64-unknown-redox-gcc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I/home/luis/redox/chronoOS/cookbook/recipes/extrautils/sysroot/include" "-I" "bzip2-1.0.8" "-D_FILE_OFFSET_BITS=64" "-DBZ_NO_STDIO" "-o" "/home/luis/redox/chronoOS/cookbook/recipes/extrautils/build/target/x86_64-unknown-redox/release/build/bzip2-sys-06c092af9d79cb29/out/lib/bzip2-1.0.8/decompress.o" "-c" "bzip2-1.0.8/decompress.c"
+exit status: 0
+running: "x86_64-unknown-redox-gcc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I/home/luis/redox/chronoOS/cookbook/recipes/extrautils/sysroot/include" "-I" "bzip2-1.0.8" "-D_FILE_OFFSET_BITS=64" "-DBZ_NO_STDIO" "-o" "/home/luis/redox/chronoOS/cookbook/recipes/extrautils/build/target/x86_64-unknown-redox/release/build/bzip2-sys-06c092af9d79cb29/out/lib/bzip2-1.0.8/bzlib.o" "-c" "bzip2-1.0.8/bzlib.c"
+exit status: 0
+AR_x86_64-unknown-redox = None
+AR_x86_64_unknown_redox = Some("x86_64-unknown-redox-ar")
+running: "x86_64-unknown-redox-ar" "cq" "/home/luis/redox/chronoOS/cookbook/recipes/extrautils/build/target/x86_64-unknown-redox/release/build/bzip2-sys-06c092af9d79cb29/out/lib/libbz2.a" "/home/luis/redox/chronoOS/cookbook/recipes/extrautils/build/target/x86_64-unknown-redox/release/build/bzip2-sys-06c092af9d79cb29/out/lib/bzip2-1.0.8/blocksort.o" "/home/luis/redox/chronoOS/cookbook/recipes/extrautils/build/target/x86_64-unknown-redox/release/build/bzip2-sys-06c092af9d79cb29/out/lib/bzip2-1.0.8/huffman.o" "/home/luis/redox/chronoOS/cookbook/recipes/extrautils/build/target/x86_64-unknown-redox/release/build/bzip2-sys-06c092af9d79cb29/out/lib/bzip2-1.0.8/crctable.o" "/home/luis/redox/chronoOS/cookbook/recipes/extrautils/build/target/x86_64-unknown-redox/release/build/bzip2-sys-06c092af9d79cb29/out/lib/bzip2-1.0.8/randtable.o" "/home/luis/redox/chronoOS/cookbook/recipes/extrautils/build/target/x86_64-unknown-redox/release/build/bzip2-sys-06c092af9d79cb29/out/lib/bzip2-1.0.8/compress.o" "/home/luis/redox/chronoOS/cookbook/recipes/extrautils/build/target/x86_64-unknown-redox/release/build/bzip2-sys-06c092af9d79cb29/out/lib/bzip2-1.0.8/decompress.o" "/home/luis/redox/chronoOS/cookbook/recipes/extrautils/build/target/x86_64-unknown-redox/release/build/bzip2-sys-06c092af9d79cb29/out/lib/bzip2-1.0.8/bzlib.o"
+exit status: 0
+running: "x86_64-unknown-redox-ar" "s" "/home/luis/redox/chronoOS/cookbook/recipes/extrautils/build/target/x86_64-unknown-redox/release/build/bzip2-sys-06c092af9d79cb29/out/lib/libbz2.a"
+exit status: 0
+cargo:rustc-link-lib=static=bz2
+cargo:rustc-link-search=native=/home/luis/redox/chronoOS/cookbook/recipes/extrautils/build/target/x86_64-unknown-redox/release/build/bzip2-sys-06c092af9d79cb29/out/lib
+cargo:root=/home/luis/redox/chronoOS/cookbook/recipes/extrautils/build/target/x86_64-unknown-redox/release/build/bzip2-sys-06c092af9d79cb29/out
+cargo:include=/home/luis/redox/chronoOS/cookbook/recipes/extrautils/build/target/x86_64-unknown-redox/release/build/bzip2-sys-06c092af9d79cb29/out/include

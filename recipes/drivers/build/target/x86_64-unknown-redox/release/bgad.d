@@ -1,0 +1,1 @@
+/home/luis/redox/chronoOS/cookbook/recipes/drivers/build/target/x86_64-unknown-redox/release/bgad: /home/luis/redox/chronoOS/cookbook/recipes/drivers/source/bgad/src/bga.rs /home/luis/redox/chronoOS/cookbook/recipes/drivers/source/bgad/src/main.rs /home/luis/redox/chronoOS/cookbook/recipes/drivers/source/bgad/src/scheme.rs

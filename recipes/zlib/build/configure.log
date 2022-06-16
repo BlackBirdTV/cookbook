@@ -1,0 +1,161 @@
+--------------------
+/home/luis/redox/redox/cookbook/recipes/zlib/source/configure --prefix= --static
+Di 14. Jun 21:37:59 CEST 2022
+Using x86_64-unknown-redox-gcc-ar
+Using x86_64-unknown-redox-gcc-ranlib
+Using x86_64-unknown-redox-gcc-nm
+=== ztest384755.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+-c ztest384755.c
+... using x86_64-unknown-redox-gcc
+
+Checking for obsessive-compulsive compiler options...
+=== ztest384755.c ===
+int foo() { return 0; }
+===
+x86_64-unknown-redox-gcc -c -I/home/luis/redox/redox/cookbook/recipes/zlib/sysroot/include ztest384755.c
+
+Building static library libz.a version 1.2.12 with x86_64-unknown-redox-gcc.
+
+=== ztest384755.c ===
+#include <stdio.h>
+#include <stdlib.h>
+size_t dummy = 0;
+===
+x86_64-unknown-redox-gcc -c -I/home/luis/redox/redox/cookbook/recipes/zlib/sysroot/include ztest384755.c
+Checking for size_t... Yes.
+
+=== ztest384755.c ===
+#include <sys/types.h>
+off64_t dummy = 0;
+===
+x86_64-unknown-redox-gcc -c -I/home/luis/redox/redox/cookbook/recipes/zlib/sysroot/include -D_LARGEFILE64_SOURCE=1 ztest384755.c
+ztest384755.c:2:1: error: unknown type name 'off64_t'; did you mean 'off_t'?
+ off64_t dummy = 0;
+ ^~~~~~~
+ off_t
+(exit code 1)
+Checking for off64_t... No.
+
+=== ztest384755.c ===
+#include <stdio.h>
+int main(void) {
+  fseeko(NULL, 0, 0);
+  return 0;
+}
+===
+x86_64-unknown-redox-gcc -I/home/luis/redox/redox/cookbook/recipes/zlib/sysroot/include -o ztest384755 ztest384755.c
+Checking for fseeko... Yes.
+
+=== ztest384755.c ===
+#include <string.h>
+#include <errno.h>
+int main() { return strlen(strerror(errno)); }
+===
+x86_64-unknown-redox-gcc -I/home/luis/redox/redox/cookbook/recipes/zlib/sysroot/include -o ztest384755 ztest384755.c
+Checking for strerror... Yes.
+
+=== ztest384755.c ===
+#include <unistd.h>
+int main() { return 0; }
+===
+x86_64-unknown-redox-gcc -c -I/home/luis/redox/redox/cookbook/recipes/zlib/sysroot/include ztest384755.c
+Checking for unistd.h... Yes.
+
+=== ztest384755.c ===
+#include <stdarg.h>
+int main() { return 0; }
+===
+x86_64-unknown-redox-gcc -c -I/home/luis/redox/redox/cookbook/recipes/zlib/sysroot/include ztest384755.c
+Checking for stdarg.h... Yes.
+
+=== ztest384755.c ===
+#include <stdio.h>
+#include <stdarg.h>
+#include "zconf.h"
+int main()
+{
+#ifndef STDC
+  choke me
+#endif
+  return 0;
+}
+===
+x86_64-unknown-redox-gcc -c -I/home/luis/redox/redox/cookbook/recipes/zlib/sysroot/include ztest384755.c
+Checking whether to use vs[n]printf() or s[n]printf()... using vs[n]printf().
+
+=== ztest384755.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return 0;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+x86_64-unknown-redox-gcc -I/home/luis/redox/redox/cookbook/recipes/zlib/sysroot/include -o ztest384755 ztest384755.c
+Checking for vsnprintf() in stdio.h... Yes.
+
+=== ztest384755.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  int n;
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  n = vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return n;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+x86_64-unknown-redox-gcc -c -I/home/luis/redox/redox/cookbook/recipes/zlib/sysroot/include ztest384755.c
+Checking for return value of vsnprintf()... Yes.
+
+ALL = static
+AR = x86_64-unknown-redox-gcc-ar
+ARFLAGS = rc
+CC = x86_64-unknown-redox-gcc
+CFLAGS = -I/home/luis/redox/redox/cookbook/recipes/zlib/sysroot/include
+CPP = x86_64-unknown-redox-gcc -E
+EXE =
+LDCONFIG = ldconfig
+LDFLAGS = --static
+LDSHARED = x86_64-unknown-redox-gcc
+LDSHAREDLIBC = -lc
+OBJC = $(OBJZ) $(OBJG)
+PIC_OBJC = $(PIC_OBJZ) $(PIC_OBJG)
+RANLIB = x86_64-unknown-redox-gcc-ranlib
+SFLAGS = -I/home/luis/redox/redox/cookbook/recipes/zlib/sysroot/include
+SHAREDLIB =
+SHAREDLIBM =
+SHAREDLIBV =
+STATICLIB = libz.a
+TEST = all teststatic
+VER = 1.2.12
+SRCDIR = /home/luis/redox/redox/cookbook/recipes/zlib/source/
+exec_prefix = ${prefix}
+includedir = ${prefix}/include
+libdir = ${exec_prefix}/lib
+mandir = ${prefix}/share/man
+prefix =
+sharedlibdir = ${libdir}
+uname = redox
+--------------------
+
+
